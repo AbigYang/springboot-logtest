@@ -1,0 +1,11 @@
+#调整日志级别
+logging:
+  level:
+    com:
+     yangtest: trace
+  #不指定路径则在当前项目下生成springboot.log日志
+  file: springboot.log
+  #控制台和文件输出日志的格式
+#  pattern:
+#    console: %d{yyyy‐MM‐dd} [%thread] %‐5level %logger{50} ‐ %msg%n
+#    file: %d{yyyy‐MM‐dd} === [%thread] === %‐5level === %logger{50} ==== %msg%n
